@@ -1,0 +1,16 @@
+{
+    "name": "ConnectSphere",
+    "short_name": "ConnectSphere",
+    "description": "Connect. Play. Stream. A social platform for gamers and creators.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#F2F2F7",
+    "theme_color": "#007AFF",
+    "icons": [
+        {
+            "src": "/vite.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ]
+}
