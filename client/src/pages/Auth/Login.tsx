@@ -110,6 +110,18 @@ export default function Login() {
                     </motion.button>
                 </motion.form>
 
+                <motion.button
+                    className="ios-btn ios-btn-secondary ios-btn-full"
+                    style={{ height: 50, fontSize: 17, marginTop: 12 }}
+                    whileTap={{ scale: 0.97 }}
+                    onClick={() => {
+                        localStorage.setItem('demoMode', 'true');
+                        window.location.href = '/';
+                    }}
+                >
+                    Try Demo Mode 🚀
+                </motion.button>
+
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
